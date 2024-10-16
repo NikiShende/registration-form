@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Utsav 2024</title>
+    <link rel="stylesheet" href="form6.css">
+</head>
+<body>
+    <form action="connect.php" method="post">
+
+    <div class="box1">
+        <h1>Ganesh Utsav 2024</h1>
+        <p>All the students of PREC Loni are hereby informed to register their interest in the following participation.</p>
+        <hr>
+        <b style="color: red;">*Indicates required question</b>
+    </div>
+    <div class="box2">
+        <label for="email">Email</label><br><br>
+        <input type="email" name="email" id="email" required>
+        <hr>
+    </div>
+    <div class="box3">
+        <label for="studentname">Name of Student</label>
+        <br><br>
+        <input type="text" name="studentname" id="studentname" placeholder="Your answer" size="40" required>
+        <br><hr>
+    </div>
+    <div class="box4">
+        <label for="mobileno">Mobile</label><br><br>
+        <input type="tel" id="mobileno" name="mobileno" placeholder="Your answer" size="40" required>
+        <hr>
+    </div>
+    <div class="box5">
+        <label for="class">Class</label><br><br>
+        <select id="class" name="class" required>
+            <option value="" disabled selected>Choose option</option>
+            <option value="FE">FE</option>
+            <option value="SE">SE</option>
+            <option value="TE">TE</option>
+            <option value="BE">BE</option>
+        </select>
+        <hr>
+    </div>
+    <div class="box6">
+        <label for="branch">Branch</label><br><br>
+        <select id="branch" name="branch" required>
+            <option value="" disabled selected>Choose option</option>
+            <option value="Computer Engineering">Computer Engineering</option>
+            <option value="Civil Engineering">Civil Engineering</option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+        </select>
+        <hr>
+    </div>
+    <div class="box7">
+        <label for="address">Address</label><br><br>
+        <input type="text" name="address" id="address" placeholder="Your answer" size="40" required>
+        <hr>
+    </div>
+    <div class="box8">
+        <label for="event">Event of Interest</label><br>
+        <h4>
+            <input type="radio" name="event" id="event_lazim" value="Lazim" required>
+            <label for="event_lazim">Lazim</label><br><br>
+            <input type="radio" name="event" id="event_dhol" value="Dhol" required>
+            <label for="event_dhol">Dhol</label>
+        </h4>
+        <hr>
+    </div>
+
+    <div class="button">
+        <button type="submit">Submit</button>
+    </div>
+
+    </form>
+</body>
+</html>

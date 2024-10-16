@@ -1,0 +1,84 @@
+*{
+    background-color: hsl(192, 26%, 96%);
+  
+}
+.box1{
+    border-radius: 2px;
+    font-size: 20px;
+    background-size: cover;
+
+    
+}
+.div h1{
+    color: rgb(28, 24, 24);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1{
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 15px;
+    
+}
+button{
+    margin: 15px;
+    padding: 15px;
+    background-color: hsl(283, 88%, 24%);
+    font-size: 30px;
+    color: #f0f8ff;
+   
+}
+main{
+    font-size: 20px;
+    background-color: hsl(32, 25%, 90%);
+    font-weight: 700;
+
+}
+.box2{
+    margin: 15px;
+    padding: 15px;
+
+}
+.box3{
+    margin: 15px;
+    padding: 15px;
+
+}
+.box6{
+    margin: 15px;
+    padding: 15px;
+}
+.box4{
+    margin: 15px;
+    padding: 15px;
+}
+.box5{
+    margin: 15px;
+    padding: 15px;
+}
+.box7{
+    margin: 15px;
+    padding: 15px;
+}
+input{
+    outline: none;
+}
+.box7 input{
+    border: none;
+}
+.box8{
+    margin: 15px;
+    padding: 15px;
+}
+div{
+    margin: 15px;
+    padding: 15px;
+}
+.button button{
+    height: 50px;
+    width: 130px;
+    text-align: center;
+    font-size: 23px;
+    border-radius: 30px;
+}
+
+
